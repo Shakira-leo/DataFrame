@@ -1,6 +1,6 @@
 import pandas as pd
 
-# Crear un diccionario con los datos
+# Diccionario de datos
 datos = {
     'Nombre': ['Juan', 'Ana', 'Luis', 'Marta'],
     'Edad': [15, 14, 16, 15],
@@ -8,9 +8,9 @@ datos = {
     'Ciudad': ['Madrid', 'Barcelona', 'Valencia','Sevilla']
 }
 
-# Crear el DataFrame usando el diccionario
+# DataFrame usando el diccionario
 df = pd.DataFrame(datos)
 
-# Mostrar el DataFrame
+# El DataFrame
 print("DataFrame de estudiantes:")
 print(df)
